@@ -4,4 +4,13 @@
     <settings>
         <setting name="logImpl" value="STDOUT_LOGGING" />
     </settings>
+    
+    <mappers>
+        <!-- resource要写成路径 -->
+        <mapper resource="mybatis/mapper/ArticleMapper.xml"/>
+        <mapper resource="mybatis/mapper/CategoryMapper.xml"/>
+        <mapper resource="mybatis/mapper/RolesMapper.xml"/>
+        <mapper resource="mybatis/mapper/TagsMapper.xml"/>
+        <mapper resource="mybatis/mapper/UserMapper.xml"/>
+    </mappers>
 </configuration>

@@ -13,7 +13,12 @@ import java.util.List;
  * Created by sang on 2017/12/17.
  */
 public class User implements UserDetails {
-    private Long id;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 658074837249321169L;
+	
+	private Long id;
     private String username;
     private String password;
     private String nickname;
